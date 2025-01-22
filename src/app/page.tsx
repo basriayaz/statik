@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import { Building2, Users, Briefcase, CheckCircle2 } from "lucide-react"
+import { CheckCircle2 } from "lucide-react"
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-6 text-lg leading-8 text-gray-200"
             >
-              2014'ten beri müşterilerimize en yüksek kalitede hizmet sunuyor, projelerindeki başarılarını artırmak için teknik uzmanlığımızı kullanıyoruz.
+              2014&apos;ten beri müşterilerimize en yüksek kalitede hizmet sunuyor, projelerindeki başarılarını artırmak için teknik uzmanlığımızı kullanıyoruz.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -388,7 +388,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-6 text-lg leading-8 text-gray-600"
             >
-              2014'ten beri inşaat sektöründe edindiğimiz deneyim ve uzmanlıkla, projeleriniz için en iyi çözümleri sunuyoruz.
+              2014&apos;ten beri inşaat sektöründe edindiğimiz deneyim ve uzmanlıkla, projeleriniz için en iyi çözümleri sunuyoruz.
             </motion.p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
