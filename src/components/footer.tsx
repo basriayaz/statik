@@ -157,7 +157,7 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   <li>
                     <Link href="https://wa.me/905448060800" target="_blank" className="text-sm leading-6 text-gray-600 transition-colors hover:text-primary">
-                      WhatsApp'dan İletişime Geç
+                      WhatsApp&apos;dan İletişime Geç
                     </Link>
                   </li>
                   <li className="text-sm leading-6 text-gray-600">
