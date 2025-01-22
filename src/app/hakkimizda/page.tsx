@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import Link from "next/link"
-import { CheckCircle2, Users, BookOpen, Target, Building2, Rocket, Shield, Trophy } from "lucide-react"
+import { Building2, Rocket, Shield, Trophy } from "lucide-react"
 
 const stats = [
   { id: 1, name: 'Yıllık Tecrübe', value: '10+' },

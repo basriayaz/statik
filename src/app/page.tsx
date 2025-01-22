@@ -5,58 +5,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { Building2, Users, Briefcase, CheckCircle2 } from "lucide-react"
 
-const features = [
-  {
-    name: "Profesyonel Ekip",
-    description: "Deneyimli ve uzman kadromuzla en kaliteli hizmeti sunuyoruz.",
-    icon: Users,
-  },
-  {
-    name: "Modern Projeler",
-    description: "En son teknoloji ve yöntemlerle modern projeler geliştiriyoruz.",
-    icon: Building2,
-  },
-  {
-    name: "Güvenilir Hizmet",
-    description: "Müşteri memnuniyeti odaklı güvenilir hizmet anlayışı.",
-    icon: Briefcase,
-  },
-]
-
-const services = [
-  {
-    title: "Yapı Tasarımı",
-    description: "Modern ve sürdürülebilir yapı tasarımları ile projelerinizi hayata geçiriyoruz.",
-    image: "/images/project1.jpg",
-  },
-  {
-    title: "Statik Projeler",
-    description: "Güvenli ve dayanıklı yapılar için detaylı statik hesaplamalar ve projeler.",
-    image: "/images/project2.jpg",
-  },
-  {
-    title: "Danışmanlık",
-    description: "Proje süreçlerinizde profesyonel danışmanlık hizmeti sunuyoruz.",
-    image: "/images/project3.jpg",
-  },
-]
-
-const stats = [
-  { id: 1, name: "Tamamlanan Proje", value: "500+" },
-  { id: 2, name: "Mutlu Müşteri", value: "250+" },
-  { id: 3, name: "Yıllık Deneyim", value: "15+" },
-  { id: 4, name: "Ödül & Başarı", value: "20+" },
-]
-
-const benefits = [
-  "Ücretsiz keşif ve danışmanlık",
-  "Hızlı ve profesyonel hizmet",
-  "Rekabetçi fiyatlar",
-  "Garanti ve bakım desteği",
-  "7/24 teknik destek",
-  "Esnek ödeme seçenekleri",
-]
-
 export default function Home() {
   return (
     <main>
@@ -85,7 +33,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-6 text-lg leading-8 text-gray-200"
             >
-              2014'ten beri müşterilerimize en yüksek kalitede hizmet sunuyor, projelerindeki başarılarını artırmak için teknik uzmanlığımızı kullanıyoruz.
+              2014&apos;ten beri müşterilerimize en yüksek kalitede hizmet sunuyor, projelerindeki başarılarını artırmak için teknik uzmanlığımızı kullanıyoruz.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -440,7 +388,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-6 text-lg leading-8 text-gray-600"
             >
-              2014'ten beri inşaat sektöründe edindiğimiz deneyim ve uzmanlıkla, projeleriniz için en iyi çözümleri sunuyoruz.
+              2014&apos;ten beri inşaat sektöründe edindiğimiz deneyim ve uzmanlıkla, projeleriniz için en iyi çözümleri sunuyoruz.
             </motion.p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">

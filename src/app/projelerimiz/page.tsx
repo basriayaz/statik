@@ -210,7 +210,7 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="mt-6 text-lg leading-8 text-gray-600"
             >
-              2014'ten beri tamamladığımız seçkin projelerimizi inceleyebilirsiniz.
+              2014&apos;ten beri tamamladığımız projelerimizden bazıları
             </motion.p>
           </div>
         </div>

@@ -46,7 +46,7 @@ export default function Footer() {
           >
             <h3 className="text-2xl font-bold text-gray-900">Statik Projeler</h3>
             <p className="mt-4 text-base leading-7 text-gray-600">
-              2014'ten beri inşaat sektöründe yenilikçi mühendislik çözümleri sunuyoruz. Dürüstlük, kalite ve müşteri memnuniyeti önceliğimizdir.
+              2014&apos;ten beri inşaat sektöründe kaliteli ve güvenilir hizmet.
             </p>
             <div className="mt-6 space-y-4">
               <div className="group flex items-center gap-x-3 transition-colors hover:text-primary">
