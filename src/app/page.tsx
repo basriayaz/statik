@@ -507,7 +507,7 @@ export default function Home() {
                 target="_blank"
                 className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-primary shadow-sm transition-colors hover:bg-white/90"
               >
-                WhatsApp'dan Mesaj Gönderin
+                WhatsApp&apos;dan Mesaj Gönderin
               </Link>
               <Link
                 href="tel:+905448060800"
