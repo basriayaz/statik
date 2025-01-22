@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, Building2, Users, Briefcase, Phone, CheckCircle2, ArrowUpRight } from "lucide-react"
+import { Building2, Users, Briefcase, CheckCircle2 } from "lucide-react"
 
 const features = [
   {

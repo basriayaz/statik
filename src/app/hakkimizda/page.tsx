@@ -1,7 +1,8 @@
 "use client"
 
-import Image from "next/image"
 import { motion } from "framer-motion"
+import Image from "next/image"
+import Link from "next/link"
 import { CheckCircle2, Users, BookOpen, Target, Building2, Rocket, Shield, Trophy } from "lucide-react"
 
 const stats = [
