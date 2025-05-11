@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 
 const navigation = {
   main: [
@@ -15,24 +15,20 @@ const navigation = {
   ],
   social: [
     {
-      name: "Facebook",
-      href: "#",
-      icon: Facebook,
-    },
-    {
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/sacikyunus/",
       icon: Instagram,
     },
     {
       name: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/yunus-sa%C3%A7%C4%B1k-3386b91b5/",
       icon: Linkedin,
     },
   ],
 }
 
 export default function Footer() {
+  const year = typeof window === 'undefined' ? 2024 : new Date().getFullYear();
   return (
     <footer className="bg-primary/5">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
@@ -183,7 +179,7 @@ export default function Footer() {
           className="mt-16 flex items-center justify-between border-t border-gray-900/10 pt-8"
         >
           <p className="text-xs leading-5 text-gray-600">
-            &copy; {new Date().getFullYear()} Statik Projeler. Tüm hakları saklıdır.
+            &copy; {year} Statik Projeler. Tüm hakları saklıdır.
           </p>
           <div className="flex space-x-6">
             {navigation.social.map((item) => (
@@ -191,6 +187,8 @@ export default function Footer() {
                 key={item.name}
                 href={item.href}
                 className="text-gray-500 transition-colors hover:text-primary"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />

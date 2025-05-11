@@ -140,7 +140,7 @@ export default function ContactPage() {
                 Beylikdüzü, İstanbul
               </p>
               <Link
-                href="https://maps.google.com"
+                href="https://www.google.com/maps/dir//SAHRA+%C5%9EEH%C4%B0RC%C4%B0L%C4%B0K+Adnan+Kahveci,+%C3%87aml%C4%B1tepe+Cd.+34520+Beylikd%C3%BCz%C3%BC%2F%C4%B0stanbul+T%C3%BCrkiye/@40.9981237,28.6381505,1655m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x14b55fa617a2bb3d:0x23aba23d910b02dd!2m2!1d28.6381442!2d40.9981375!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
                 target="_blank"
                 className="mt-6 inline-flex items-center gap-x-2 rounded-full bg-primary px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-600"
               >
