@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { useEffect, useState } from "react";
 
 const navigation = {
   main: [
@@ -28,7 +29,12 @@ const navigation = {
 }
 
 export default function Footer() {
-  const year = typeof window === 'undefined' ? 2024 : new Date().getFullYear();
+  const [year, setYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="bg-primary/5">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">

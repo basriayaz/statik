@@ -14,7 +14,7 @@ export default function ContactPage() {
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 0.3 }}
               className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
             >
               İletişim
@@ -22,7 +22,7 @@ export default function ContactPage() {
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               className="mt-6 text-lg leading-8 text-gray-600"
             >
               Projeleriniz için bizimle iletişime geçin.
@@ -39,7 +39,7 @@ export default function ContactPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary-600 p-8 text-white"
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10">
@@ -63,7 +63,7 @@ export default function ContactPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.3, delay: 0.1 }}
             className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary-600 p-8 text-white"
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10">
@@ -87,7 +87,7 @@ export default function ContactPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.3, delay: 0.15 }}
             className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary-600 p-8 text-white"
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10">
@@ -115,7 +115,7 @@ export default function ContactPage() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.3 }}
           className="mt-16 overflow-hidden rounded-3xl bg-white shadow-lg"
         >
           <div className="grid grid-cols-1 lg:grid-cols-2">
